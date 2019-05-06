@@ -214,10 +214,6 @@ for (a in 1:nrow(cm2))
 }
 cbind(cm2, err)
 
-cmxx <- cm
-cmvv <- cmxx + cm
-
-
 #additional plots showing erros
 template.id <- 1
 template.signal <- p1
